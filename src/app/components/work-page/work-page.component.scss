@@ -1,0 +1,79 @@
+@import '/src/_color.scss';
+
+:host {
+  .header-container {
+    width: 100%;
+    // padding: 120px 16px 120px 0;
+    .header {
+      font-size: 48px;
+      padding-bottom: 32px;
+    }
+    .body {
+      flex-direction: column;
+      .text {
+        color: $color-grey-2;
+        padding: 24px;
+        font-size: 18px;
+      }
+    }
+    .footer {
+      .seperate-container {
+        width: 100%;
+        line-height: 80px;
+        .line {
+          margin: 0 32px;
+          background-color: $color-grey-1;
+          height: 2px;
+          width: 25%;
+        }
+        .text {
+          font-size: 18px;
+        }
+      }
+      .contact-container {
+        gap: 16px;
+        height: 50%;
+      }
+    }
+  }
+  .work-container {
+    margin-top: 40px;
+    .header {
+      font-size: 40px;
+    }
+    .main-content {
+      margin-top: 16px;
+      .project-title {
+        gap: 8px;
+        .project-name {
+          font-size: 24px;
+        }
+        .experience-time {
+          color: $color-grey-2;
+        }
+      }
+      .project-info {
+        margin: 16px 0;
+        padding: 16px;
+        width: 100%;
+        background-color: $bg-color-01;
+        border-radius: 8px;
+        gap: 8px;
+        .title {
+          color: $color-green-1;
+          font-size: 20px;
+        }
+        .experience-time {
+          color: $color-grey-2;
+          font-size: 14px;
+        }
+        .description {
+          .des-item {
+            color: $color-grey-3;
+          }
+        }
+      }
+    }
+  }
+
+}

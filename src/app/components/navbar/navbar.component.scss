@@ -1,0 +1,32 @@
+@import '/src/_color.scss';
+
+.nav-container {
+  width: 250px;
+  height: 100vh;
+  background-color: $nav-bg-color;
+  padding: 16px;
+  .tab-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .tab-item {
+      transition: 0.22s;
+      display: flex;
+      align-items: center;
+      line-height: 40px;
+      color: #fff;
+      padding: 0 16px;
+      border-radius: 12px;
+      cursor: pointer;
+      &.actived {
+        background: $nav-bg-actived-color;
+      }
+      .tab-logo {
+        margin-right: 16px;
+      }
+      .tab-content {
+        font-family: Roboto;
+      }
+    }
+  }
+}

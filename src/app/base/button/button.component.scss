@@ -1,0 +1,19 @@
+@import '/src/color';
+
+:host {
+  .btn {
+    padding: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: $nav-bg-actived-color;
+    color: $color-white;
+    .space {
+      margin-right: 8px;
+    }
+    .text {
+      font-size: 18px;
+    }
+  }
+}

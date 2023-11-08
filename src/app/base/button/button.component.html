@@ -1,0 +1,11 @@
+<button ngClass="btn flex justify-content-center align-items-center">
+  <div [class]="icon" ngClass="btn-icon" *ngIf="icon">
+
+  </div>
+  <div class="space" *ngIf="icon && text">
+
+  </div>
+  <div class="text" *ngIf="text">
+    {{ text }}
+  </div>
+</button>

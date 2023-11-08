@@ -1,0 +1,122 @@
+/* You can add global styles to this file, and also import other style files */
+@import '/src/_color.scss';
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+body {
+  margin: 0;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ic-house-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/house-solid.svg');
+  @extend .icon;
+}
+
+.ic-address-card-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/address-card-solid.svg');
+  @extend .icon;
+}
+
+.ic-book-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/book-solid.svg');
+  @extend .icon;
+}
+
+.ic-briefcase-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/briefcase-solid.svg');
+  @extend .icon;
+}
+
+.ic-circle-info-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/circle-info-solid.svg');
+  @extend .icon;
+}
+
+.ic-comment-dots-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/comment-dots-solid.svg');
+  @extend .icon;
+}
+
+.ic-email-green-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/email-svgrepo-com.svg');
+  @extend .icon;
+}
+
+.ic-fiverr-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/fiverr-svgrepo-com.svg');
+  @extend .icon;
+}
+
+.ic-linkedin-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/linkedin-svgrepo-com.svg');
+  @extend .icon;
+}
+
+.ic-upwork-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/upwork-svgrepo-com.svg');
+  @extend .icon;
+}
+
+.ic-freelancer-24 {
+  width: 24px;
+  height: 24px;
+  background-image: url('../src/assets/icons/freelancer-svgrepo-com.svg');
+  @extend .icon;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-green {
+  color: $color-green-1
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}

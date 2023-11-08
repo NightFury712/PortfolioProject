@@ -1,0 +1,64 @@
+@import '/src/_color.scss';
+:host {
+  
+  .home-container {
+    height: 100%;
+    gap: 48px;
+    .left-content {
+      width: 50%;
+      padding: 120px 16px 120px 0;
+      .header {
+        padding-bottom: 66px;
+        .title {
+          font-size: 48px;
+          padding-bottom: 10px;
+        }
+        .sub-title {
+          color: $color-grey-1;
+          font-size: 24px;
+        }
+      }
+      .content {
+        font-size: 24px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .right-content {
+      width: 50%;
+      padding: 120px 16px 120px 0;
+      .header {
+        font-size: 48px;
+        padding-bottom: 66px;
+      }
+      .body {
+        flex-direction: column;
+        .text {
+          color: $color-grey-2;
+          padding: 24px;
+          font-size: 18px;
+        }
+      }
+      .footer {
+        height: 50%;
+        .seperate-container {
+          height: 50%;
+          .line {
+            margin: 0 32px;
+            background-color: $color-grey-1;
+            height: 2px;
+            width: 100%;
+          }
+          .text {
+            font-size: 18px;
+          }
+        }
+        .contact-container {
+          gap: 16px;
+          height: 50%;
+        }
+      }
+    }
+  }
+}

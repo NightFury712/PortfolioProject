@@ -1,0 +1,12 @@
+@import '/src/_color.scss';
+
+:host {
+  .main-content {
+    width: 100%;
+    height: 100vh;
+    padding: 32px 64px;
+    background-color: $bg-color;
+    color: $color-white;
+    overflow: auto;
+  }
+}

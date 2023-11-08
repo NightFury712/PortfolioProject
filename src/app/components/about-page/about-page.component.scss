@@ -1,0 +1,28 @@
+@import '/src/_color.scss';
+
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  .about-title {
+    font-size: 28px;
+    padding: 24px 0;
+  }
+  .content {
+    padding: 18px 120px;
+    margin-top: 48px;
+    .item {
+      font-size: 18px;
+      margin: 0;
+      padding: 12px 0;
+    }
+  }
+  .footer {
+    gap: 16px;
+    height: 120px;
+    margin-top: 80px;
+  }
+}
